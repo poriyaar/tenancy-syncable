@@ -11,8 +11,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/dashboard', function () {
-    // این روت حالا به درستی کار می‌کند
-    return 'سلام از طرف مستأجر با شناسه: ' . tenant('id');
+       echo "test" ;
 });
 
-// می‌توانی بقیه روت‌های مستأجر را اینجا اضافه کنی
